@@ -1,5 +1,6 @@
---[[EPISODE ONE WYN TUTORIAL]]--
+--[[EPISODE TWO WYN TUTORIAL]]--
 --[[game = https://www.roblox.com/games/5098929086]]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Globals--
 _G.autotap = true
 _G.autorebirth = true
@@ -7,6 +8,10 @@ _G.autorebirth = true
 --Locals--
 
 local remotepath = game:GetService("ReplicatedStorage")
+
+for i, v in pairs(_G) do
+    print(i,v)
+end
 
 spawn(function()
     while _G.autotap == true do
@@ -22,17 +27,3 @@ spawn(function()
     end
 end)
 print ('hello') 
-
---[[
-ON MY OWN
-
-_G.autotap2 = true
-
-spawn(function()
-    while _G.autotap2 == true do
-        game:GetService("ReplicatedStorage").fileMade:FireServer()
-        wait()
-    end 
-end)
-game = https://www.roblox.com/games/6859865958
-]]--
