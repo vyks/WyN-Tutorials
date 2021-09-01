@@ -1,3 +1,4 @@
+print("script made by vykzs")
 --Globals--
 getgenv().autodrink = true
 getgenv().autoburp = true
@@ -41,4 +42,3 @@ doBurp()
 Game - 
 https://www.roblox.com/games/2017976530/Jungle-Soda-Drinking-Simulator
 ]]--
-print("script made by vykzs")
