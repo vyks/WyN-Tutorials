@@ -43,13 +43,6 @@ function getCurrentPlayerPOS()
         return false
 end
 
-
-
-
-
-
-
-
 --Teleports--
 
 function upgradeTele(placeCFrame)
