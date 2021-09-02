@@ -1,3 +1,5 @@
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("AutoStunt only works if you are jumping. Enjoy! - vykzs","All")
+
 --Globals--
 getgenv().autodrink = false
 getgenv().autoburp = false
@@ -16,8 +18,6 @@ local c = w:CreateFolder("Teleports")
 local b = w:CreateFolder("Misc")
 
 --Script--
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("AutoStunt only works if you are jumping. Enjoy! - vykzs","All")
 
 function doDrink()
     spawn(function()
